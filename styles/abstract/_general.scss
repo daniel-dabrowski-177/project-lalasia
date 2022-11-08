@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "eudoxus sans";
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 14px;
+  font-weight: 500;
+  color: $clr-paragraph;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: $clr-paragraph;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hero-heading {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 130%;
+  color: $clr-text;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: medium;
+  line-height: 180%;
+  color: $clr-paragraph;
+}
+
+.subheading {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 130%;
+  color: $clr-secondary;
+}
+
+.button {
+  background-color: $clr-main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $clr-screen;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 130%;
+  border: none;
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 130%;
+  color: $clr-text;
+}
+
+.h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 130%;
+  color: $clr-text;
+}
+
+@media (min-width: $mobile) {
+  .hero-heading {
+    font-size: 36px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .logo {
+    font-size: 24px;
+  }
+
+  .hero-heading {
+    font-size: 48px;
+  }
+
+  input::placeholder {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 180%;
+  }
+
+  .subheading {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+
+  .h2 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 130%;
+    color: $clr-text;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+}
