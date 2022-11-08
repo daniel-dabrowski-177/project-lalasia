@@ -1,0 +1,5 @@
+TODO:
+
+	> add to logo and buttons ~cup
+	> add class ".active" that changes color of nav into main-green && adding underline in ::after element
+	> remove border from search input

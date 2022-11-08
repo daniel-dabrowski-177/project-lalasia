@@ -419,9 +419,9 @@ input::placeholder {
       flex-wrap: wrap;
 }
 
-.benefits .heading-wrapper .h3 {
+.benefits .heading-wrapper .h2 {
   margin: 0 40px 0 0;
-  max-width: 5ch;
+  max-width: 15ch;
 }
 
 .benefits .heading-wrapper header .h3 {
